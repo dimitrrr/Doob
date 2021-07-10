@@ -11,10 +11,10 @@ document.querySelector('form .btn').onclick = (e) => {
 }
 
 document.querySelector('.icon').onclick = () => {
-  let x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  let x = document.getElementById('myTopnav');
+  if (x.className === 'topnav') {
+    x.className += ' responsive';
   } else {
-    x.className = "topnav";
+    x.className = 'topnav';
   }
 }
