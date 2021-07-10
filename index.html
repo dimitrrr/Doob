@@ -1,13 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doob</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="#" class="active">D<span class="underline">oo</span>b</a>
+        <a href="#">Home.</a>
+        <a href="#about">About us.</a>
+        <a href="#portfolio">Portfolio.</a>
+        <a href="#">Blog.</a>
+        <a href="#contact">Contact us.</a>
+        <div class="topnav__right-part">
+          <select>
+            <option value="EN">EN</option>
+            <option value="RU">RU</option>
+          </select>
+          <div class="topnav__tocontact">
+            <div>
+              <a href="#contact">Contact Us </a>
+              <img src="./assets/arrow.png" alt="arrow" />
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="icon">
+          <img src="./assets/menu.png" alt="hamburger" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="title" id="about">
+        <img src="./assets/Main.png" alt="main" />
+        <div class="title__text">
+          <h1>The Spirit of Digital Agency.</h1>
+          <div class="title__description">
+            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+            Nulla porttitor accumsan tincidunt.
+          </div>
+          <div class="title__button">
+            <button class="btn">More About us</button>
+            <a href="#">Get in Touch.</a>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="portfolio">
+        <h2>See some of our<br />Creative work.</h2>
+        <div class="images">
+          <div class="image__item"></div>
+          <div class="image__item"></div>
+          <div class="image__item"></div>
+          <div class="image__item"></div>
+          <div class="image__item"></div>
+          <div class="image__item"></div>
+        </div>
+        <div class="more">
+          <a href="#">See More of These.</a>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="annotation">CONTACT US</div>
+        <h2>Get in Touch</h2>
+        <form action="#">
+          <div class="contact__double-fields">
+            <input type="email" placeholder="Your email" class="field" />
+            <input type="text" placeholder="Subject" class="field" />
+          </div>
+          <textarea placeholder="Message here..." class="field"></textarea>
+          <button class="btn">Send message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <div class="annotation">DOOB</div>
+        <h2>CREATIVITY ABOVE</h2>
+        <div class="links">
+          <ul>
+            <li><a href="#">Home.</a></li>
+            <li><a href="#">About us.</a></li>
+            <li><a href="#">Portfolio.</a></li>
+            <li><a href="#">Blog.</a></li>
+            <li><a href="#">Contact us.</a></li>
+          </ul>
+        </div>
+        <div class="copy">&copy; 2019 - Doob,All Right Reserved</div>
+        <div class="social">
+          <a href="#"><img src="./assets/Facebook.png" alt="facebook" /></a>
+          <a href="#"><img src="./assets/Twitter.png" alt="twitter" /></a>
+          <a href="#"><img src="./assets/Dribble.png" alt="dribble" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
